@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>NovaRealms - Ana Sayfa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 60px 20px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+      color: #00ffd5;
+    }
+    p.slogan {
+      font-size: 1.4em;
+      color: #ccc;
+    }
+    .join-btn {
+      background: #00ffd5;
+      color: #000;
+      padding: 15px 30px;
+      border: none;
+      font-size: 1.2em;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .join-btn:hover {
+      background: #00c3a7;
+    }
+    .features {
+      margin-top: 50px;
+      padding: 20px;
+    }
+    .feature-item {
+      margin: 15px 0;
+      font-size: 1.2em;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      background: #111;
+      color: #888;
+      font-size: 0.9em;
+    }
+    a {
+      color: #00ffd5;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NovaRealms</h1>
+    <p class="slogan">Minecraft'ta sınırları zorla. Hayatta kal, savaş, hükmet!</p>
+    <p><strong>Sunucu IP:</strong> <code>play.novarealms.net</code> | <strong>Sürüm:</strong> 1.20.x</p>
+    <button class="join-btn" onclick="navigator.clipboard.writeText('play.novarealms.net'); alert('IP kopyalandı!')">Sunucuya Katıl</button>
+  </header>
+
+  <section class="features">
+    <h2>🌟 Özellikler</h2>
+    <div class="feature-item">✅ PvP ve Survival bir arada</div>
+    <div class="feature-item">🏰 Lonca sistemi</div>
+    <div class="feature-item">🎉 Haftalık etkinlikler & ödüller</div>
+    <div class="feature-item">📈 Ekonomi ve market sistemi</div>
+    <div class="feature-item">💬 <a href=\"https://discord.gg/novarealms\" target=\"_blank\">Discord topluluğuna katıl</a></div>
+  </section>
+
+  <footer>
+    &copy; 2025 NovaRealms Sunucusu | Tüm hakları saklıdır.
+  </footer>
+
+</body>
+</html>
